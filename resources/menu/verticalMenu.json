@@ -1,0 +1,1123 @@
+{
+  "menu": [
+    {
+      "name": "Manage Members",
+      "icon": "menu-icon fas fa-fw fa-users",
+      "slug": "manage-member",
+      "can": "admin-menu",
+      "submenu": [
+        {
+          "url": "customers",
+          "name": "All users",
+          "slug": "manage-member-customers"
+        },
+        {
+          "url": "users/paid",
+          "name": "All paid users",
+          "slug": "manage-member-customer-paid"
+        },
+        {
+          "url": "users/monthly-subscriber",
+          "name": "Monthly subscribers",
+          "slug": "manage-member-customer-monthlySubscriber"
+        },
+        {
+          "url": "users/monthly-subscription-inactive",
+          "name": "Monthly subscription inactive",
+          "slug": "manage-member-customer-monthlySubscriber-inactive"
+        },
+        {
+          "url": "users/monthly-unsubscriber",
+          "name": "Monthly unsubscribers",
+          "slug": "manage-member-customer-monthlyUnsubscriber"
+        },
+        {
+          "url": "users/with-balance",
+          "name": "With balance",
+          "slug": "manage-member-customers"
+        },
+        {
+          "url": "users/free",
+          "name": "All free users",
+          "slug": "manage-member-customer-free"
+        },
+        {
+          "url": "users/banned",
+          "name": "Banned users",
+          "slug": "manage-member-customer-banned"
+        },
+        {
+          "url": "users/email-unverified",
+          "name": "Email unverified",
+          "slug": "manage-member-customer-emailUnverified"
+        },
+        {
+          "url": "users/top-recruiters",
+          "name": "Top Recruiters",
+          "slug": "users/top-recruiters"
+        },
+        {
+          "url": "users/rating-score",
+          "name": "Rating score",
+          "slug": "users/rating-score"
+        },
+        {
+          "url": "customers/create",
+          "name": "Add member",
+          "slug": "manage-member-customers/create"
+        }
+      ]
+    },
+    {
+      "name": "KYC Management",
+      "icon": "menu-icon tf-icons ti ti-book",
+      "slug": "customer-kyc",
+      "submenu": [
+        {
+          "url": "user/kycs/view",
+          "name": "KYC Information",
+          "slug": "customer-kyc-view",
+          "can": "customer-menu"
+        },
+        {
+          "url": "kycs",
+          "name": "KYC List",
+          "slug": "customer-kyc-index",
+          "can": "admin-menu"
+        },
+        {
+          "url": "kycs/get/pending",
+          "name": "Pending KYC List",
+          "slug": "customer-kyc-type",
+          "can": "admin-menu"
+        },
+        {
+          "url": "kycs/get/approved",
+          "name": "Approved KYC List",
+          "slug": "customer-kyc-type",
+          "can": "admin-menu"
+        },
+        {
+          "url": "kycs/get/rejected",
+          "name": "Reject KYC List",
+          "slug": "customer-kyc-type",
+          "can": "admin-menu"
+        }
+      ]
+    },
+    {
+      "name": "Manage Membership",
+      "icon": "menu-icon fa fa-user-tag",
+      "slug": "membership",
+      "submenu": [
+        {
+          "url": "users/membership-plan",
+          "name": "Membership Plan",
+          "slug": "users/membership-plan",
+          "can": "admin-menu"
+        },
+        {
+          "url": "users/switch-membership",
+          "name": "Switch",
+          "slug": "users/switch-membership",
+          "can": "admin-menu"
+        },
+        {
+          "url": "users/membership-log",
+          "name": "Membership Log",
+          "slug": "users/membership-log",
+          "can": "admin-menu"
+        },
+        {
+          "url": "user/membership-plan",
+          "name": "Membership Plan",
+          "slug": "user/membership-plan",
+          "can": "customer-menu"
+        },
+        {
+          "url": "user/upgrade-membership-plan",
+          "name": "Upgrade membership",
+          "slug": "user/upgrade-membership-plan",
+          "can": "customer-menu"
+        },
+        {
+          "url": "user/downgrade-membership-plan",
+          "name": "Downgrade membership",
+          "slug": "user/downgrade-membership-plan",
+          "can": "customer-menu"
+        },
+        {
+          "url": "user/switch-subscription",
+          "name": "Switch substitution",
+          "slug": "user/switch-subscription",
+          "can": "customer-menu"
+        },
+        {
+          "url": "user/membership-log",
+          "name": "Membership logs",
+          "slug": "user/membership-log",
+          "can": "customer-menu"
+        },
+        {
+          "url": "user/activate-lifetime-package",
+          "name": "Active lifetime package",
+          "slug": "user/activate-lifetime-package",
+          "can": "customer-menu"
+        },
+        {
+          "url": "user/activate-monthly-package",
+          "name": "Active/Inactive monthly package",
+          "slug": "user/activate-monthly-package",
+          "can": "customer-menu"
+        }
+      ]
+    },
+    {
+      "name": "Manage Subscription",
+      "icon": "menu-icon fa fa-user-ninja",
+      "slug": "manage-subscription",
+      "can": "admin-menu",
+      "submenu": [
+        {
+          "url": "users/subscription-package",
+          "name": "Subscription package",
+          "slug": "users/subscription-package",
+          "can": "admin-menu"
+        },
+        {
+          "url": "users/disable-subscription",
+          "name": "Disable",
+          "slug": "users/disable-subscription",
+          "can": "admin-menu"
+        },
+        {
+          "url": "users/subscription-log",
+          "name": "Subscription Log",
+          "slug": "users/subscription-log",
+          "can": "admin-menu"
+        }
+      ]
+    },
+    {
+      "name": "Manage Referral",
+      "icon": "menu-icon fa fa-user-ninja",
+      "slug": "manage-referral",
+      "can": "admin-menu",
+      "submenu": [
+        {
+          "url": "referrals",
+          "name": "Multi Level Referral",
+          "slug": "referrals"
+        },
+        {
+          "url": "referrals/active",
+          "name": "Active Referral",
+          "slug": "referrals/active"
+        },
+        {
+          "url": "referrals/inactive",
+          "name": "Inactive Referral",
+          "slug": "referrals/inactive"
+        },
+        {
+          "url": "referrals/genealogy-tree",
+          "name": "Genealogy Tree",
+          "slug": "referrals/genealogy-tree"
+        }
+      ]
+    },
+    {
+      "name": "Networks",
+      "icon": "menu-icon fa fa-user-ninja",
+      "slug": "manage-referral",
+      "can": "customer-menu",
+      "submenu": [
+        {
+          "url": "user/referrals/genealogy-tree",
+          "name": "Genealogy Tree",
+          "slug": "user/referrals/genealogy-tree"
+        },
+        {
+          "url": "user/referrals/active",
+          "name": "Tabular Tree",
+          "slug": "user/referrals/active"
+        },
+        {
+          "url": "user/referrals/downline-list",
+          "name": "Downline List",
+          "slug": "user/referrals/downline-list"
+        },
+        {
+          "url": "user/referrals",
+          "name": "Referral List",
+          "slug": "user/referrals"
+        }
+      ]
+    },
+    {
+      "url": "users/ranking",
+      "name": "User Ranking",
+      "icon": "menu-icon fa fa-user-ninja",
+      "slug": "users/ranking",
+      "can": "admin-menu"
+    },
+    {
+      "name": "Rewards",
+      "icon": "menu-icon fas fa-money-check-alt",
+      "slug": "rewards",
+      "submenu": [
+        {
+          "url": "lifetime-reward",
+          "name": "Leaderboard",
+          "slug": "lifetime-reward",
+          "can": "admin-menu"
+        },
+        {
+          "url": "reward-chart",
+          "name": "Reward Charts",
+          "slug": "reward-chart",
+          "can": "admin-menu"
+        },
+        {
+          "url": "rank_rewards",
+          "name": "Rank rewards",
+          "slug": "rank_rewards",
+          "can": "admin-menu"
+        },
+        {
+          "url": "reward-log",
+          "name": "Rewards Logs",
+          "slug": "reward-log",
+          "can": "admin-menu"
+        },
+        {
+          "url": "user/lifetime-reward",
+          "name": "Leaderboard",
+          "slug": "user/lifetime-reward",
+          "can": "customer-menu"
+        },
+        {
+          "url": "user/reward-chart",
+          "name": "Reward Charts",
+          "slug": "user/reward-chart",
+          "can": "customer-menu"
+        },
+        {
+          "url": "user/reward-log",
+          "name": "Rewards Logs",
+          "slug": "user/reward-log",
+          "can": "customer-menu"
+        }
+      ]
+    },
+    {
+      "name": "Monthly Rewards",
+      "icon": "menu-icon fas fa-money-check-alt",
+      "slug": "Monthlyrewards",
+      "can": "admin-menu",
+      "submenu": [
+        {
+          "url": "monthly_rewards",
+          "name": "Rewards",
+          "slug": "monthly_rewards",
+          "can": "admin-menu"
+        },
+        {
+          "url": "monthly_rewards/create",
+          "name": "Create",
+          "slug": "monthly_rewards/create",
+          "can": "admin-menu"
+        }
+      ]
+    },
+    {
+      "name": "Deposits",
+      "icon": "menu-icon fas fa-money-check-alt",
+      "slug": "app-academy",
+      "can": "admin-menu",
+      "submenu": [
+        {
+          "url": "user/deposits/list",
+          "name": "Deposits List",
+          "slug": "deposits/type/pending",
+          "can": "customer-menu"
+        },
+        {
+          "url": "deposits/type/pending",
+          "name": "Pending Deposits",
+          "slug": "deposits/type/pending",
+          "can": "admin-menu"
+        },
+        {
+          "url": "deposits/type/rejected",
+          "name": "Rejected Deposits",
+          "slug": "deposits/type/rejected",
+          "can": "admin-menu"
+        },
+        {
+          "url": "deposits/type/approved",
+          "name": "Approved Deposits",
+          "slug": "deposits/type/rejected",
+          "can": "admin-menu"
+        },
+        {
+          "url": "deposits/type/initiated",
+          "name": "Initiated Deposits",
+          "slug": "deposits/type/initiated",
+          "can": "admin-menu"
+        },
+        {
+          "url": "deposits",
+          "name": "All Deposit Logs",
+          "slug": "deposits",
+          "can": "admin-menu"
+        }
+      ]
+    },
+    {
+      "name": "Deposits",
+      "icon": "menu-icon fas fa-money-check-alt",
+      "slug": "app-academy",
+      "can": "customer-menu",
+      "submenu": [
+        {
+          "url": "user/deposits/create",
+          "name": "Create Deposit",
+          "slug": "user/deposits/create",
+          "can": "customer-menu"
+        },
+        {
+          "url": "user/deposits/type/pending",
+          "name": "Pending Deposits",
+          "slug": "deposits/type/pending",
+          "can": "customer-menu"
+        },
+        {
+          "url": "user/deposits/type/rejected",
+          "name": "Rejected Deposits",
+          "slug": "deposits/type/rejected",
+          "can": "customer-menu"
+        },
+        {
+          "url": "user/deposits/type/approved",
+          "name": "Approved Deposits",
+          "slug": "deposits/type/rejected",
+          "can": "customer-menu"
+        },
+        {
+          "url": "user/deposits/list",
+          "name": "Deposit Historty",
+          "slug": "user/deposits/list",
+          "can": "customer-menu"
+        }
+      ]
+    },
+    {
+      "name": "Manage withdraws",
+      "icon": "menu-icon fas fa-money-check-alt",
+      "slug": "app-academy",
+      "submenu": [
+        {
+          "url": "pending-withdraw-requests",
+          "name": "Requested for",
+          "slug": "pending-withdraw-requests",
+          "can": "admin-menu"
+        },
+        {
+          "url": "approved-withdraw-requests",
+          "name": "Approved withdraw",
+          "slug": "user/approved-withdraw-requests",
+          "can": "admin-menu"
+        },
+        {
+          "url": "rejected-withdraw-requests",
+          "name": "Rejected withdraw",
+          "slug": "user/rejected-withdraw-requests",
+          "can": "admin-menu"
+        },
+        {
+          "url": "withdraw-requests-log",
+          "name": "All withdraw log",
+          "slug": "withdraw-requests-log",
+          "can": "admin-menu"
+        },
+        {
+          "url": "user/withdraw-requests",
+          "name": "Withdraw requests",
+          "slug": "user/withdraw-requests",
+          "can": "customer-menu"
+        },
+        {
+          "url": "user/withdraw-request/create",
+          "name": "Request Withdrawl",
+          "slug": "user/withdraw-request/create",
+          "can": "customer-menu"
+        },
+
+        {
+          "url": "user/pending-withdraw-requests",
+          "name": "Pending withdraw",
+          "slug": "user/pending-withdraw-requests",
+          "can": "customer-menu"
+        },
+        {
+          "url": "user/approved-withdraw-requests",
+          "name": "Approved withdraw",
+          "slug": "user/approved-withdraw-requests",
+          "can": "customer-menu"
+        },
+        {
+          "url": "user/rejected-withdraw-requests",
+          "name": "Rejected withdraw",
+          "slug": "user/rejected-withdraw-requests",
+          "can": "customer-menu"
+        }
+      ]
+    },
+    {
+      "name": "Manage Blog",
+      "icon": "menu-icon fas fa-fw fa-blog",
+      "slug": "app-academy",
+      "can": "admin-menu",
+
+      "submenu": [
+        {
+          "url": "blog_categories",
+          "name": "Categories",
+          "slug": "blog_categories",
+          "can": "admin-menu"
+        },
+        {
+          "url": "blogs",
+          "name": "Posts",
+          "slug": "blogs",
+          "can": "admin-menu"
+        }
+      ]
+    },
+    {
+      "name": "Company Setting",
+      "icon": "menu-icon fas fa-fw fa-landmark",
+      "slug": "app-academy",
+      "can": "admin-menu",
+
+      "submenu": [
+        {
+          "url": "company_settings",
+          "name": "Company Setting",
+          "slug": "blog_categories",
+          "can": "admin-menu"
+        },
+        {
+          "url": "user_settings",
+          "name": "User Settings",
+          "slug": "blogs",
+          "can": "admin-menu"
+        }
+      ]
+    },
+    {
+      "name": "Email",
+      "icon": "menu-icon fas fa-fw fa-envelope",
+      "slug": "app-email",
+      "can": "admin-menu",
+
+      "submenu": [
+        {
+          "url": "users/send-email",
+          "name": "Send email",
+          "slug": "users/send-email"
+        }
+      ]
+    },
+    {
+      "name": "Support ticket",
+      "icon": "menu-icon fas fa-fw fa-question-circle",
+      "slug": "app-academy",
+      "submenu": [
+        {
+          "url": "support_tickets/open",
+          "name": "Open",
+          "slug": "support_tickets/open",
+          "can": "admin-menu"
+        },
+        {
+          "url": "support_tickets/answered",
+          "name": "Answered",
+          "slug": "support_tickets/answered",
+          "can": "admin-menu"
+        },
+        {
+          "url": "support_tickets/closed",
+          "name": "Closed",
+          "slug": "support_tickets/closed",
+          "can": "admin-menu"
+        },
+        {
+          "url": "user/support_tickets/open",
+          "name": "Open",
+          "slug": "user/support_tickets/open",
+          "can": "customer-menu"
+        },
+        {
+          "url": "user/support_tickets/answered",
+          "name": "Answered",
+          "slug": "user/support_tickets/answered",
+          "can": "customer-menu"
+        },
+        {
+          "url": "user/support_tickets/closed",
+          "name": "Closed",
+          "slug": "user/support_tickets/closed",
+          "can": "customer-menu"
+        },
+        {
+          "url": "user/support_tickets/create",
+          "name": "New Ticket",
+          "slug": "support_tickets/create",
+          "can": "customer-menu"
+        }
+      ]
+    },
+    {
+      "name": "Utilities",
+      "icon": "menu-icon fas fa-fw fa-database",
+      "slug": "app-academy",
+      "can": "admin-menu",
+
+      "submenu": [
+        {
+          "url": "/database-migration",
+          "name": "Database Migration",
+          "slug": "/database-migration"
+        },
+        {
+          "url": "banned_ips",
+          "name": "Banned ip",
+          "slug": "banned_ips"
+        }
+      ]
+    },
+    {
+      "name": "Account Settings",
+      "icon": "menu-icon fas fa-fw fa-key",
+      "slug": "app-academy",
+      "submenu": [
+        {
+          "url": "/profile",
+          "name": "profile",
+          "slug": "/profile",
+          "can": "profile",
+          "icon": "fas fa-fw fa-user"
+        },
+        {
+          "url": "user/profile",
+          "name": "User Profile",
+          "slug": "user/profile",
+          "icon": "fas fa-fw fa-user",
+          "can": "customer-menu"
+        },
+        {
+          "url": "user/subscribers",
+          "name": "subscribers",
+          "slug": "user/subscribers",
+          "icon": "fas fa-fw fa-user",
+          "can": "customer-menu"
+        }
+      ]
+    },
+    {
+      "name": "Roll Permission",
+      "icon": "menu-icon fas fa-fw fa-universal-access",
+      "slug": "rollPermission",
+      "can": "admin-menu",
+
+      "submenu": [
+        {
+          "url": "/users",
+          "name": "User List",
+          "icon": "fas fa-fw fa-user",
+          "slug": "/users"
+        },
+        {
+          "url": "roles",
+          "name": "Roles",
+          "slug": "roles",
+          "icon": "fas fa-fw fa-user"
+        },
+        {
+          "url": "permissions",
+          "name": "Permissions",
+          "slug": "permissions",
+          "icon": "fas fa-fw fa-user",
+          "can": "admin-menu"
+        },
+        {
+          "url": "access-logs",
+          "name": "Access Log",
+          "slug": "rollPermission-access-logs",
+          "icon": "fas fa-fw fa-universal-access",
+          "can": "admin-menu"
+        }
+      ]
+    },
+    {
+      "name": "Site Settings",
+      "icon": "menu-icon fas fa-fw fa-laptop",
+      "slug": "site_settings",
+      "can": "admin-menu",
+      "submenu": [
+        {
+          "url": "/global_settings",
+          "name": "Site Settings",
+          "slug": "/site_settings-global_settings",
+          "icon": "fas fa-sliders-h"
+        },
+        {
+          "url": "reward_sites",
+          "name": "Reward Sites",
+          "slug": "#",
+          "icon": "fas fa-volumn-down",
+          "can": "admin-menu"
+        },
+        {
+          "url": "reward_submit_types",
+          "name": "Reward Sites Type",
+          "slug": "#",
+          "icon": "fas fa-volumn-down",
+          "can": "admin-menu"
+        },
+        {
+          "url": "reward_type_mappings",
+          "name": "Reward Sites Mapping",
+          "slug": "#",
+          "icon": "fas fa-volumn-down",
+          "can": "admin-menu"
+        }
+      ]
+    },
+    {
+      "name": "User Behave",
+      "icon": "menu-icon fas fa-fw fa-user-tie",
+      "slug": "userBehave",
+      "can": "admin-menu",
+      "submenu": [
+        {
+          "url": "/online-user",
+          "name": "Who's Online",
+          "slug": "userBehave-online-user",
+          "icon": "fas fa-sliders-h"
+        },
+        {
+          "url": "activity-log",
+          "name": "Account Activity",
+          "slug": "userBehave-activity-log",
+          "icon": "fas fa-spinner"
+        }
+      ]
+    },
+    {
+      "url": "user/profile",
+      "name": "User Profile",
+      "icon": "menu-icon fas fa-fw fa-user-tie",
+      "slug": "user.profile.show",
+      "can": "customer-menu"
+    },
+    {
+      "name": "SEO Tools",
+      "icon": "menu-icon fas fa-fw fa-chart-bar",
+      "slug": "seotools",
+      "can": "admin-menu",
+      "submenu": [
+        {
+          "url": "/seo_tools",
+          "name": "Google Analytic",
+          "slug": "userBehave-online-user",
+          "icon": "fas fa-chart-bar"
+        },
+        {
+          "url": "/seo_tools",
+          "name": "Meta Keywards",
+          "slug": "userBehave-online-user",
+          "icon": "fas fa-sliders-h"
+        },
+        {
+          "url": "/social_links",
+          "name": "Social Link",
+          "slug": "userBehave-activity-log",
+          "icon": "fas fa-share-alt"
+        },
+        {
+          "url": "/sitemap/list",
+          "name": "Site Map",
+          "slug": "userBehave-activity-log",
+          "icon": "fas fa-sitemap"
+        }
+      ]
+    },
+    {
+      "name": "Loging Info",
+      "icon": "menu-icon fas fa-fw fa-mobile",
+      "slug": "logingInfo",
+      "can": "admin-menu",
+      "submenu": [
+        {
+          "url": "/admin-login-log",
+          "name": "Admin Loging Info",
+          "slug": "logingInfo-adminLoging-Log",
+          "icon": "fas fa-sliders-h"
+        },
+        {
+          "url": "/customer-login-log",
+          "name": "User Loging Info",
+          "slug": "logingInfo-customerLoging-Log",
+          "icon": "fas fa-spinner"
+        }
+      ]
+    },
+    {
+      "name": "Coupons",
+      "icon": "menu-icon fas fa-ticket-alt",
+      "slug": "logingInfo",
+      "submenu": [
+        {
+          "url": "/user/coupons",
+          "name": "Apply Coupons",
+          "slug": "logingInfo-adminLoging-Log",
+          "icon": "fas fa-ticket-alt",
+          "can": "customer-menu"
+        },
+        {
+          "url": "/coupons",
+          "name": "Coupons",
+          "slug": "logingInfo-adminLoging-Log",
+          "icon": "fas fa-list",
+          "can": "admin-menu"
+        },
+        {
+          "url": "/apllied/coupon/list",
+          "name": "Applied Coupons",
+          "slug": "logingInfo-adminLoging-Log",
+          "icon": "fas fa-tags",
+          "can": "admin-menu"
+        }
+      ]
+    },
+    {
+      "name": "Funds",
+      "icon": "menu-icon fas fa-money-bill-wave me-2",
+      "slug": "logingInfo",
+      "submenu": [
+        {
+          "url": "user/fund/transfer",
+          "name": "Fund Transfer",
+          "slug": "logingInfo-adminLoging-Log",
+          "icon": "fas fa-hand-holding-usd me-2",
+          "can": "customer-menu"
+        },
+        {
+          "url": "balance/transfer",
+          "name": "Fund Transfer",
+          "slug": "logingInfo-adminLoging-Log",
+          "icon": "fas fa-dollar-sign me-2",
+          "can": "admin-menu"
+        },
+        {
+          "url": "balance/transfer/pending",
+          "name": "Pending Fund Transfer",
+          "slug": "logingInfo-adminLoging-Log",
+          "icon": "fas fa-arrow-right me-2",
+          "can": "admin-menu"
+        },
+        {
+          "url": "balance/transfer/approved",
+          "name": "Approved Fund Transfer",
+          "slug": "logingInfo-adminLoging-Log",
+          "icon": "fas fa-list-alt me-2",
+          "can": "admin-menu"
+        },
+        {
+          "url": "balance/transfer/rejected",
+          "name": "Rejected Fund Transfer",
+          "slug": "logingInfo-adminLoging-Log",
+          "icon": "fas fa-ban me-2",
+          "can": "admin-menu"
+        }
+      ]
+    },
+    {
+      "name": "Point Wallet",
+      "icon": "menu-icon fas fa-wallet me-2",
+      "slug": "logingInfo",
+      "submenu": [
+        {
+          "url": "user/point/wallet",
+          "name": "Point Wallet",
+          "slug": "logingInfo-adminLoging-Log",
+          "icon": "fas fa-hand-holding-usd me-2",
+          "can": "customer-menu"
+        },
+        {
+          "url": "point/convert",
+          "name": "Point Convert",
+          "slug": "logingInfo-adminLoging-Log",
+          "icon": "fas fa-coins me-2",
+          "can": "admin-menu"
+        },
+        {
+          "url": "point/convert/pending",
+          "name": "Pending Point Convert",
+          "slug": "logingInfo-adminLoging-Log",
+          "icon": "fas fa-hourglass-half me-2",
+          "can": "admin-menu"
+        },
+        {
+          "url": "point/convert/approved",
+          "name": "Approved Point Convert",
+          "slug": "logingInfo-adminLoging-Log",
+          "icon": "fas fa-check-circle me-2",
+          "can": "admin-menu"
+        },
+        {
+          "url": "point/convert/rejected",
+          "name": "Rejected Point Convert",
+          "slug": "logingInfo-adminLoging-Log",
+          "icon": "fas fa-times-circle me-2",
+          "can": "admin-menu"
+        }
+      ]
+    },
+    {
+      "name": "Extra Rewards",
+      "icon": "menu-icon fas fa-gift",
+      "slug": "logingInfo",
+      "submenu": [
+        {
+          "url": "user/extra/rewards",
+          "name": "Extra Rewards",
+          "slug": "logingInfo-adminLoging-Log",
+          "icon": "fas fa-hand-holding-usd me-2",
+          "can": "customer-menu"
+        },
+        {
+          "url": "extra/rewards",
+          "name": "All Extra Rewards",
+          "slug": "logingInfo-adminLoging-Log",
+          "icon": "fas fa-star me-2",
+          "can": "admin-menu"
+        },
+        {
+          "url": "extra/rewards/pending",
+          "name": "Pending Extra Rewards",
+          "slug": "logingInfo-adminLoging-Log",
+          "icon": "fas fa-hourglass-half me-2",
+          "can": "admin-menu"
+        },
+        {
+          "url": "extra/rewards/approved",
+          "name": "Approved Extra Rewards",
+          "slug": "logingInfo-adminLoging-Log",
+          "icon": "fas fa-check-circle me-2",
+          "can": "admin-menu"
+        },
+        {
+          "url": "extra/rewards/rejected",
+          "name": "Rejected Extra Rewards",
+          "slug": "logingInfo-adminLoging-Log",
+          "icon": "fas fa-times-circle me-2",
+          "can": "admin-menu"
+        }
+      ]
+    },
+    {
+      "url": "languages",
+      "name": "Translation management",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slug": "languages",
+      "can": "admin-menu"
+    },
+    {
+      "url": "countries",
+      "name": "Countries",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slug": "countries",
+      "can": "admin-menu"
+    },
+    {
+      "url": "sales-statement",
+      "name": "sales statement",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slug": "sales-statement",
+      "can": "admin-menu"
+    },
+    {
+      "url": "notices",
+      "icon": "menu-icon tf-icons ti ti-file",
+      "name": "Notices",
+      "slug": "notices",
+      "can": "admin-menu"
+    },
+    {
+      "icon": "menu-icon tf-icons ti ti-file",
+      "name": "FAQ",
+      "slug": "faq",
+      "can": "admin-menu",
+      "submenu": [
+        {
+          "url": "/faqs",
+          "name": "FAQs",
+          "slug": "faq"
+        },
+        {
+          "url": "/faqs/create",
+          "name": "Create",
+          "slug": "faq"
+        }
+      ]
+    },
+    {
+      "icon": "menu-icon tf-icons ti ti-file",
+      "name": "Earning Report",
+      "slug": "Earning-Report",
+      "can": "customer-menu",
+      "submenu": [
+        {
+          "url": "user/earnings",
+          "name": "My Earnings",
+          "slug": "user/earnings"
+        },
+        {
+          "url": "user/deductions",
+          "name": "My Deductions",
+          "slug": "user/deductions"
+        },
+        {
+          "url": "user/earnings/search",
+          "name": "Search Earnings",
+          "slug": "user/earnings/search"
+        }
+      ]
+    },
+    {
+      "icon": "menu-icon tf-icons ti ti-file",
+      "name": "Invite & Earn",
+      "slug": "user/invite-earn",
+      "url": "user/invite-earn",
+      "can": "customer-menu"
+    },
+    {
+      "icon": "menu-icon tf-icons ti ti-file",
+      "name": "Reward Partner",
+      "slug": "reward-partner",
+      "can": "customer-menu",
+      "submenu": [
+        {
+          "url": "/user/top-recruiters-partners",
+          "name": "Top Recruiters",
+          "slug": "/user/top-recruiters-partners"
+        },
+        {
+          "url": "/user/top-subscriber-partners",
+          "name": "Top Subscribers",
+          "slug": "/user/top-subscriber-partners"
+        },
+        {
+          "url": "/user/last-3m-active-partners",
+          "name": "Last 3M Active",
+          "slug": "/user/last-3m-active-partners"
+        },
+        {
+          "url": "/user/last-6m-active-partners",
+          "name": "Last 6M Active",
+          "slug": "/user/last-6m-active-partners"
+        },
+        {
+          "url": "/user/last-1y-active-partners",
+          "name": "Last 1Y Active",
+          "slug": "/user/last-1y-active-partners"
+        },
+        {
+          "url": "/user/all-time-active-partners",
+          "name": "All Time Active",
+          "slug": "/user/all-time-active-partners"
+        },
+        {
+          "url": "/user/all-time-inactive-partners",
+          "name": "All Time Inactive",
+          "slug": "/user/all-time-inactive-partners"
+        }
+      ]
+    },
+    {
+      "icon": "menu-icon tf-icons ti ti-file",
+      "name": "Reward Team",
+      "slug": "reward-partner",
+      "can": "customer-menu",
+      "submenu": [
+        {
+          "url": "/user/top-recruiters-team",
+          "name": "Top Recruiters",
+          "slug": "/user/top-recruiters-team"
+        },
+        {
+          "url": "/user/top-subscriber-team",
+          "name": "Top Subscribers",
+          "slug": "/user/top-subscriber-team"
+        },
+        {
+          "url": "/user/last-3m-active-team",
+          "name": "Last 3M Active",
+          "slug": "/user/last-3m-active-team"
+        },
+        {
+          "url": "/user/last-6m-active-team",
+          "name": "Last 6M Active",
+          "slug": "/user/last-6m-active-team"
+        },
+        {
+          "url": "/user/last-1y-active-team",
+          "name": "Last 1Y Active",
+          "slug": "/user/last-1y-active-team"
+        },
+        {
+          "url": "/user/all-time-active-team",
+          "name": "All Time Active",
+          "slug": "/user/all-time-active-team"
+        },
+        {
+          "url": "/user/all-time-inactive-team",
+          "name": "All Time Inactive",
+          "slug": "/user/all-time-inactive-team"
+        }
+      ]
+    },
+
+    {
+      "icon": "menu-icon tf-icons ti ti-file",
+      "name": "Help Center",
+      "slug": "Help-Center",
+      "can": "customer-menu",
+      "submenu": [
+        {
+          "url": "user/faqs",
+          "name": "FAQ",
+          "slug": "user/faqs"
+        }
+      ]
+    },
+    {
+      "icon": "menu-icon tf-icons ti ti-file",
+      "name": "Purchase request",
+      "slug": "purchase_requests",
+      "url": "purchase_requests",
+      "can": "admin-menu"
+    },
+    {
+      "icon": "menu-icon tf-icons ti ti-file",
+      "name": "books",
+      "slug": "books",
+      "url": "books",
+      "can": "admin-menu"
+    }
+  ]
+}

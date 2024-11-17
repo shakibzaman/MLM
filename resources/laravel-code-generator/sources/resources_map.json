@@ -1,0 +1,54 @@
+[
+    {
+        "model-name": "SocialLink",
+        "resource-file": "social_links.json"
+    },
+    {
+        "model-name": "CompanySetting",
+        "resource-file": "company_settings.json"
+    },
+    {
+        "model-name": "UserSetting",
+        "resource-file": "user_settings.json"
+    },
+    {
+        "model-name": "PluginSetting",
+        "resource-file": "plugin_settings.json"
+    },
+    {
+        "model-name": "RankReward",
+        "resource-file": "rank_rewards.json"
+    },
+    {
+        "model-name": "Faq",
+        "resource-file": "faqs.json"
+    },
+    {
+        "model-name": "PoolReward",
+        "resource-file": "pool_rewards.json"
+    },
+    {
+        "model-name": "RewardSite",
+        "resource-file": "reward_sites.json"
+    },
+    {
+        "model-name": "RewardSubmitType",
+        "resource-file": "reward_submit_types.json"
+    },
+    {
+        "model-name": "RewardTypeMapping",
+        "resource-file": "reward_type_mappings.json"
+    },
+    {
+        "model-name": "Coupon",
+        "resource-file": "coupons.json"
+    },
+    {
+        "model-name": "PurchaseRequest",
+        "resource-file": "purchase_requests.json"
+    },
+    {
+        "model-name": "Book",
+        "resource-file": "books.json"
+    }
+]
